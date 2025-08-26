@@ -33,15 +33,29 @@ With live demos, SEO-friendly pages, and a CSR vs SSR toggle, this project demon
 
 ---
 
+## 📂 Project Structure  
+
+demo-frontend/
+├── pages/
+│ ├── index.tsx # Landing page of the demo
+│ ├── projects/
+│ │ └── [slug].tsx # Dynamic project pages (SEO demo)
+├── components/
+│ ├── Layout.tsx # Layout with <Head> and SEO
+│ ├── Navbar.tsx # Simple navigation
+│ ├── ProjectCard.tsx # Interactive project previews
+├── public/
+│ └── images/ # Demo images
+├── styles/
+│ └── globals.css # Tailwind base
+├── next.config.js
+└── package.json
+
 ## 🔗 Live Demo  
 👉 [View Live Demo](https://your-vercel-link.vercel.app)  
 
----
-
 ## 🚀 Getting Started  
-
-To run this project locally:  
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/demo-frontend.git
+   git clone https://github.com/Felix-Cordero-Jr/demo-frontend.git
